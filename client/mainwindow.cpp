@@ -56,5 +56,7 @@ void MainWindow::on_pushButton_2_clicked()
 
 void MainWindow::on_lineEdit_returnPressed()
 {
-    SendToServer(ui->lineEdit->text());
+    QString command = ui->lineEdit->text();
+    socket->write(command.toUtf8()); // Отправка команды на сервер
+    ui->lineEdit->clear(); // Очистить поле ввода
 }
