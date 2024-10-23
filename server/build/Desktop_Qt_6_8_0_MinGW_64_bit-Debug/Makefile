@@ -417,6 +417,7 @@ Makefile: ../../server.pro C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++/qmake.conf C:/
 		C:/Qt/6.8.0/mingw_64/mkspecs/features/lex.prf \
 		../../server.pro \
 		C:/Qt/6.8.0/mingw_64/lib/Qt6Network.prl \
+		C:/Qt/6.8.0/mingw_64/lib/Qt6Sql.prl \
 		C:/Qt/6.8.0/mingw_64/lib/Qt6Core.prl \
 		C:/Qt/6.8.0/mingw_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile ..\..\server.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
@@ -767,6 +768,7 @@ C:/Qt/6.8.0/mingw_64/mkspecs/features/yacc.prf:
 C:/Qt/6.8.0/mingw_64/mkspecs/features/lex.prf:
 ../../server.pro:
 C:/Qt/6.8.0/mingw_64/lib/Qt6Network.prl:
+C:/Qt/6.8.0/mingw_64/lib/Qt6Sql.prl:
 C:/Qt/6.8.0/mingw_64/lib/Qt6Core.prl:
 C:/Qt/6.8.0/mingw_64/mkspecs/features/build_pass.prf:
 qmake: FORCE
