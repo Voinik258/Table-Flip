@@ -2,6 +2,6 @@
 
 Пароли:
 
-Администратор: admin1 Admin12345
-
-Пользователь user111 User12345
+ID: 0, Login: admin, Password: TestPass123
+ID: 1, Login: User1, Password: TestPass123
+ID: 2, Login: admin1, Password: TestPass123
